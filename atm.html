@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Bank of Kevin ATM </title>
+<!-- Latest compiled and minified CSS --> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href ="atm.css">
+
+<!-- Linking jQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!-- Linking Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class ="container">
+
+   <div class="jumbotron bg-primary text-center">
+       <h1>Bank of Kevin ATM</h1>
+   </div>
+
+   <div class="row">
+
+       <div class="col-sm-6">
+           <div class="panel panel-primary">
+                <div class="panel-heading">Menu Options</div>
+                <div class="panel-body">
+                    <p>Welcome to Bank of Kevin. </p>
+                    <br>
+                    <p>Please choose one of the menu options to proceed.</p>
+                    <li>Check your Account Information</li>
+                    <li>Withdraw</li>
+                    <li>Deposit</li>
+                    <li>Money Transfer to another Bank of Kevin Client</li>
+                </div>
+           </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="well text-center">
+                <div>
+                    <img class="img-responsive" src="https://thefinanser.com/wp-content/uploads/2021/09/bank.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="row text-center">
+
+        <div class="col-sm-6">
+            <button class="btn" id="cashWithdraw">Withdraw</button>
+            <div class= "well text-center">
+            <p id="withdrawText">hello</p>
+             </div>
+            <button class="btn" id="cashDeposit">Deposit</button>
+            <br>
+            <br>
+            <div class="well text-center">
+                 <p id="funText">Please enter your password and account number.</p>
+            </div>
+            <form>
+                <input id="username">
+                <input id="password">
+                <button type="button" onClick="myFunction()">Login</button>
+            </form>
+            
+        </div>
+
+    </div>
+
+<br><br><br><br>
+
+<div class="row">
+     
+    <div class="col-sm-6 text-center">
+        <button class="btn btn-primary form-control" id="factButton">Your Account Balance</button>
+        <div class="well text-center">
+            <p id="accountText">Click the button for your account balance!</p>
+        </div>
+    </div>
+    
+    <div class="col-sm-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Customer Service</div>
+            <div class="panel-body">
+                <ol>
+                    <li>Technical Issues: 519-701-1019</li>
+                    <li>Further Customer Support: Visit a branch for more information</li>
+                    <li>Business Hours: Monday-Sunday from 10am-7pm</li>
+                    <li>Emergency: Please call 911.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="ATM Machine.js"></script>
+</body>
+</html>
